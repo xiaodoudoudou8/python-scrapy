@@ -19,30 +19,17 @@ ITEM_PIPELINES = ['inv_www.pipelines.InvWwwPipeline']
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'inv_www (+http://www.yourdomain.com)'
-#penny dev test
-#PENNY_ALLOWEND_DOMAINS = ["www.staging.investopedia.com"]
-#PENNY_ALLOWEND_DOMAINS = ["www.investopedia.com"]
-#PENNY_ALLOWEND_DOMAINS = ["dev2.investopedia.com"]
-PENNY_ALLOWEND_DOMAINS = ["staging.vcinv.net"]
-#drupal staging domain http://staging.admin.vcinv.net/
+#PENNY_ALLOWEND_DOMAINS = ["touzi101dev1.vcbrands.com"]
+PENNY_ALLOWEND_DOMAINS = ["www.touzi101.cn"]
+#drupal staging domain 
+#HEADER = "http://touzi101dev1.vcbrands.com"
+HEADER = "http://www.touzi101.cn"
 
-#HEADER = "http://www.staging.investopedia.com"
-#HEADER = "http://dev2.investopedia.com"
-#HEADER = "http://www.investopedia.com"
-HEADER = "http://staging.vcinv.net/"
 
-#PENNYHOST = "cmsfdb101.beta.wl.mezimedia.com"
-PENNYHOSTREADURL = "10.32.28.10"
-PENNYHOST= "10.32.28.11"#"db102.dev.wl.vcinv.net"
-#PENNYHOST = "db101.dev.wl.vcinv.net"
-PENNYUSER = "dt_cms"
-PENNYPASSWORD = "dtCms23!"
-PENNYDB = "INV_Staging"
+PENNYHOST= "10.32.28.11"
+
+PENNYUSER = ""
+PENNYPASSWORD = ""
+PENNYDB = ""
 PENNYDBREADURL = "crawler"
 #end penny dev test
-
-#DRUPAL_START_URLS      =   ["http://www.staging.investopedia.com/"]
-
-#self.header = "http://www.staging.investopedia.com"
-#self.header = "http://dev2.investopedia.com"
-#self.header = "http://www.investopedia.com"
