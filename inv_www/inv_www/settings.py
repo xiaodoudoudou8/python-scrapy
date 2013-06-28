@@ -20,16 +20,15 @@ ITEM_PIPELINES = ['inv_www.pipelines.InvWwwPipeline']
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'inv_www (+http://www.yourdomain.com)'
 #PENNY_ALLOWEND_DOMAINS = ["touzi101dev1.vcbrands.com"]
-PENNY_ALLOWEND_DOMAINS = ["www.touzi101.cn"]
+ALLOWEND_DOMAINS = ["www.touzi101.cn"]
 #drupal staging domain 
 #HEADER = "http://touzi101dev1.vcbrands.com"
-HEADER = "http://www.touzi101.cn"
+HEADER = "http://www.touzi101.cn/"
 
 
-PENNYHOST= "10.32.28.11"
+SAVEHOST= "10.32.28.11"
 
-PENNYUSER = ""
-PENNYPASSWORD = ""
-PENNYDB = ""
-PENNYDBREADURL = "crawler"
+SAVEUSER = ""
+SAVEPASSWORD = ""
+SAVEDB = ""
 #end penny dev test
